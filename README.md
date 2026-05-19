@@ -1,6 +1,6 @@
 # Nombre del Proyecto
 
-GitFlow
+ActGitFlow
 
 ## Descripción
 
