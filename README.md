@@ -65,7 +65,7 @@ http://localhost:3000/api/estado
 
 ## Autores
 
-- Gabriel - Estudiante / desarrollador
+- Gabriel G- Estudiante / desarrollador
 
 ## Curso
 
