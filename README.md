@@ -25,7 +25,7 @@ npm install
 
 ## Uso
 
-Levantar el servidor:
+Para levantar el servidor:
 
 ~~~bash
 npm start
