@@ -2,32 +2,30 @@
 
 GitFlow
 
-API de Practica Git Flow
-
 ## Descripción
 
 Este proyecto es una mini API construida con Express para practicar Git Flow en una actividad guiada.
 
-La API tiene un endpoint de estado que permite comprobar que el servidor esta funcionando correctamente.
+La API tiene un endpoint de estado que permite comprobar que el servidor está funcionando correctamente.
 
 ## Instalación
 
 Requisitos:
 
-- Node.js 20 o superior.
-- npm.
+- Node.js 20 o superior
+- npm
 
 Pasos:
 
 ~~~bash
 git clone https://github.com/gab4gbg/ActGitFlow.git
-cd gab4gbg
+cd src
 npm install
 ~~~
 
 ## Uso
 
-Levantar el servidor local:
+Levantar el servidor:
 
 ~~~bash
 npm start
@@ -39,7 +37,7 @@ Probar el endpoint:
 curl http://localhost:3000/api/estado
 ~~~
 
-Respuesta esperada:
+Respuesta del endpoint:
 
 ~~~json
 {
@@ -49,15 +47,25 @@ Respuesta esperada:
 }
 ~~~
 
-Si usas navegador, abre:
+O desde el navegador:
 
 ~~~text
 http://localhost:3000/api/estado
 ~~~
 
+## Respuesta esperada
+
+~~~json
+{
+  "ok": true,
+  "mensaje": "API de practica Git Flow funcionando",
+  "version": "1.0.0"
+}
+~~~
+
 ## Autores
 
-- Gabriel - Desarrollador
+- Gabriel - Estudiante / desarrollador
 
 ## Curso
 
@@ -65,13 +73,9 @@ SW II
 
 ## Flujo de trabajo Git
 
-Durante la práctica se usará Git Flow:
-
-- main: rama principal y estable.
-- develop: rama de integración.
-- feature/readme-base: rama para crear la primera versión del README.
-- feature/documentacion-extra: rama para mejorar la documentación.
-- release/v1.0.0: rama para preparar la entrega final.
-- hotfix/readme-typo: rama para corregir un error menor.
-
-La versión final se marcará con el tag v1.0.0.
+- main: rama principal estable
+- develop: integración de cambios
+- feature/readme-base: creación del README inicial
+- feature/documentacion-extra: mejora de documentación
+- release/v1.0.0: preparación de versión final
+- hotfix/readme-typo: correcciones menores
