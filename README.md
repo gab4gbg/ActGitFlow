@@ -20,7 +20,7 @@ Requisitos:
 Pasos:
 
 ~~~bash
-git clone https://github.com/gab4gbg/gab4gbg.git
+git clone https://github.com/gab4gbg/ActGitFlow.git
 cd gab4gbg
 npm install
 ~~~
