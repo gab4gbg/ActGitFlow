@@ -37,6 +37,16 @@ Probar el endpoint:
 curl http://localhost:3000/api/estado
 ~~~
 
+Respuesta del endpoint:
+
+~~~json
+{
+  "ok": true,
+  "mensaje": "API de practica Git Flow funcionando",
+  "version": "1.0.0"
+}
+~~~
+
 O desde el navegador:
 
 ~~~text
