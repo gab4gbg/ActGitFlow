@@ -26,7 +26,7 @@ npm install
 ~~~
 
 ## Uso
-
+>documentación en progreso.
 Levantar el servidor local:
 
 ~~~bash
